@@ -13,7 +13,7 @@ class Program
             Console.WriteLine("5: Month number -> days");
             Console.WriteLine("6: Vowel or Consonant");
             Console.WriteLine("0: Exit");
-            Console.Write("Choose: ");
+            Console.Write("Enter your choice: ");
 
             string choice = Console.ReadLine();
             if (choice == "0") break;
@@ -105,4 +105,5 @@ class Program
         bool isVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
         Console.WriteLine(isVowel ? "vowel" : "consonant");
     }
+
 }
